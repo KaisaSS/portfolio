@@ -1,0 +1,21 @@
+:root {
+  --blue: #00eeff;
+  --green: #33ff00;
+  --pink: #ff00ff;
+  --yellow: #ffee00;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background: rgb(10, 5, 35);
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh;
+  margin-top: 150px;
+}
