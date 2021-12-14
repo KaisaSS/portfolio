@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <div className="quote-box">
           <p>
-            <i class="fas fa-quote-left fa-2x" /> Love what you do,
+            <i className="fas fa-quote-left fa-2x" /> Love what you do,
           </p>
           <p>Do what you love</p>
         </div>
