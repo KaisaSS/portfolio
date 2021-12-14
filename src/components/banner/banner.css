@@ -1,0 +1,122 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  margin-bottom: 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.triangles {
+  display: flex;
+}
+
+.triangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Upward triangle */
+.triangle-up-front {
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 200px solid var(--bgColor);
+  position: absolute;
+  z-index: 1;
+}
+
+.triangle-up-back {
+  border-left: 146px solid transparent;
+  border-right: 146px solid transparent;
+  border-bottom: 205px solid var(--yellow);
+}
+
+/* Downward triangle */
+.triangle-down-front {
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-top: 202px solid var(--bgColor);
+  position: absolute;
+  z-index: 1;
+}
+
+.triangle-down-back {
+  border-left: 146px solid transparent;
+  border-right: 146px solid transparent;
+  border-top: 206px solid var(--yellow);
+}
+
+/* Quote */
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
+  background: var(--bgColor);
+  opacity: 0.9;
+  font-family: serif;
+  font-size: 30px;
+  transition: all ease 0.6s;
+}
+
+.quote-box:hover {
+  transform: scale(1.2);
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 700px) {
+  /* Upward triangle */
+  .triangle-up {
+    position: relative;
+    left: 20px;
+  }
+
+  .triangle-up-front {
+    border-left: 64px solid transparent;
+    border-right: 64px solid transparent;
+    border-bottom: 94px solid var(--bgColor);
+  }
+
+  .triangle-up-back {
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 100px solid var(--yellow);
+  }
+
+  /* Downward triangle */
+  .triangle-down {
+    position: relative;
+    right: 20px;
+  }
+
+  .triangle-down-front {
+    border-left: 84px solid transparent;
+    border-right: 84px solid transparent;
+    border-top: 144px solid var(--bgColor);
+  }
+
+  .triangle-down-back {
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 150px solid var(--yellow);
+  }
+
+  .quote-box {
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+}

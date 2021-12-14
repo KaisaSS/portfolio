@@ -4,18 +4,22 @@
   --pink: #ff00ff;
   --yellow: #ffee00;
   --white: #ffffff;
+  --bgColor: #0a0523;
 }
 
 * {
   margin: 0;
   padding: 0;
-  background: rgb(10, 5, 35);
   box-sizing: border-box;
+}
+
+body {
   color: var(--white);
+  background: var(--bgColor);
   font-family: monospace;
 }
 
 .container {
-  height: 100vh;
-  margin-top: 150px;
+  width: 100%;
+  padding: 120px 20px 0 20px;
 }
