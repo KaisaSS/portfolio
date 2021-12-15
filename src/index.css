@@ -20,6 +20,11 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding: 120px 20px 0 20px;
+  padding-top: 120px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
 }

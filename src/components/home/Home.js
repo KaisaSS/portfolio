@@ -1,13 +1,13 @@
-import "./banner.css";
+import "./home.css";
 
-const Banner = () => {
+const Home = () => {
   return (
     <div className="container">
       <div className="section">
         <div className="description">
-          <p>Hello!</p>
+          <p>Hello</p>
           <h1>I am Kaisa</h1>
-          <p>a web developer</p>
+          <p>a frontend developer</p>
         </div>
       </div>
       <div className="section">
@@ -32,4 +32,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Home;

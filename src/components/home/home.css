@@ -14,6 +14,10 @@
   align-items: center;
 }
 
+.description h1 {
+  font-size: 36px;
+}
+
 .triangles {
   display: flex;
 }
@@ -75,8 +79,17 @@
   transform: scale(1.2);
 }
 
-/* Mobile */
+/* Animations */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
+/* Mobile */
 @media only screen and (max-width: 700px) {
   /* Upward triangle */
   .triangle-up {

@@ -37,17 +37,17 @@ const Navbar = () => {
         </div>
       </div>
       {activeMenu && (
-        <div className="nav-options">
-          <Link to="/" className="nav-option">
+        <div className="nav-options" onMouseLeave={window.innerWidth < 700 ? handleHamburgerMenuClick : <></>}>
+          <Link to="/" className="nav-option home-link">
             Home
           </Link>
-          <Link to="/about" className="nav-option">
+          <Link to="/about" className="nav-option about-link">
             About
           </Link>
-          <Link to="/projects" className="nav-option">
+          <Link to="/projects" className="nav-option projects-link">
             Projects
           </Link>
-          <Link to="/contact" className="nav-option">
+          <Link to="/contact" className="nav-option contact-link">
             Contact
           </Link>
         </div>
