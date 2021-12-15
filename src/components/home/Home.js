@@ -1,6 +1,13 @@
+import React, { useEffect } from "react";
 import "./home.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 700 });
+  }, []);
+
   return (
     <div className="container">
       <div className="section">
@@ -11,7 +18,7 @@ const Home = () => {
         </div>
       </div>
       <div className="section">
-        <div className="triangles">
+        <div className="triangles" data-aos="zoom-out">
           <div className="triangle triangle-up">
             <div className="triangle-up-front"></div>
             <div className="triangle-up-back"></div>
@@ -21,7 +28,7 @@ const Home = () => {
             <div className="triangle-down-back"></div>
           </div>
         </div>
-        <div className="quote-box">
+        <div className="quote-box" data-aos="zoom-in-up">
           <p>
             <i className="fas fa-quote-left fa-2x" /> Love what you do,
           </p>
