@@ -37,10 +37,7 @@ const Navbar = () => {
         </div>
       </div>
       {activeMenu && (
-        <div className="nav-options" onMouseLeave={window.innerWidth < 700 ? handleHamburgerMenuClick : <></>}>
-          <Link to="/" className="nav-option">
-            Home
-          </Link>
+        <div className="nav-options" onClick={window.innerWidth < 700 ? handleHamburgerMenuClick : null}>
           <Link to="/about" className="nav-option">
             About
           </Link>

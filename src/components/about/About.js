@@ -12,12 +12,12 @@ const About = () => {
       <h1 className="title">About</h1>
       <h2>Languages</h2>
       <div className="language-container">
-        <img src={html_img} />
-        <img src={css_img} />
-        <img src={javascript_img} />
-        <img src={react_img} />
-        <img src={nodejs_img} />
-        <img src={git_img} />
+        <img src={html_img} alt="html logo" />
+        <img src={css_img} alt="css logo" />
+        <img src={javascript_img} alt="javascript logo" />
+        <img src={react_img} alt="react logo" />
+        <img src={nodejs_img} alt="nodejs logo" />
+        <img src={git_img} alt="git logo" />
       </div>
     </div>
   );

@@ -1,7 +1,14 @@
+import { useState } from "react";
+import ContactForm from "./ContactForm";
+import SubmissionSuccess from "./SubmissionSuccess";
+import "./contact.css";
+
 const Contact = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   return (
     <div className="container">
-      <h1 className="title">Contact</h1>
+      {!isSubmitted ? <ContactForm setIsSubmitted={setIsSubmitted} /> : <SubmissionSuccess />}
     </div>
   );
 };
