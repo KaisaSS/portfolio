@@ -16,6 +16,11 @@
   opacity: 0.8;
 }
 
+.project h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 700px) {
   .project-grid {
     margin: 30px 10px;

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "DoggyCare",
+    "coverPhoto": "",
+    "description": "Website that lets you book dog walking service, doggy daycare, or dog boarding for a selected date and time",
+    "website": "",
+    "github": "https://github.com/KaisaSS/doggy-care"
+  },
+  {
+    "name": "CryptoCurr",
+    "coverPhoto": "",
+    "description": "Cryptocurrency news, statistics and exchange information, all in one platform",
+    "website": "",
+    "github": "https://github.com/KaisaSS/crypto-app"
+  },
+  {
+    "name": "Memo Dogs",
+    "coverPhoto": "",
+    "description": "Classic memory game where the goal is to find two matching cards",
+    "website": "https://crypto-curr-react.netlify.app/",
+    "github": "https://github.com/KaisaSS/memory-game"
+  },
+  {
+    "name": "Face Recognition App",
+    "coverPhoto": "",
+    "description": "App that lets you find a face in an image",
+    "website": "",
+    "github": "https://github.com/KaisaSS/face-recognition"
+  }
+]
