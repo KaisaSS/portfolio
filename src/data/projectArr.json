@@ -10,21 +10,28 @@
     "name": "CryptoCurr",
     "coverPhoto": "",
     "description": "Cryptocurrency news, statistics and exchange information, all in one platform",
-    "website": "",
+    "website": "https://crypto-curr-react.netlify.app/",
     "github": "https://github.com/KaisaSS/crypto-app"
   },
   {
     "name": "Memo Dogs",
     "coverPhoto": "",
     "description": "Classic memory game where the goal is to find two matching cards",
-    "website": "https://crypto-curr-react.netlify.app/",
+    "website": "https://memo-dogs.netlify.app/",
     "github": "https://github.com/KaisaSS/memory-game"
   },
   {
     "name": "Face Recognition App",
     "coverPhoto": "",
-    "description": "App that lets you find a face in an image",
+    "description": "App that detects a face in an image of your choice",
     "website": "",
     "github": "https://github.com/KaisaSS/face-recognition"
+  },
+  {
+    "name": "Movie Search",
+    "coverPhoto": "",
+    "description": "Browse popular movies, check movie ratings, running times, budgets, and more!",
+    "website": "https://movie-db-reactjs.netlify.app/",
+    "github": "https://github.com/KaisaSS/react-movie-db"
   }
 ]
