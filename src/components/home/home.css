@@ -89,7 +89,7 @@
   transform: scale(1.2);
 }
 
-.contact-btn {
+.link-btn {
   margin-top: 30px;
   padding: 10px 15px;
   background: var(--white);
@@ -99,15 +99,15 @@
   border-radius: 5px;
 }
 
-.contact-btn:hover {
+.link-btn:hover {
   transform: scale(1.1);
 }
 
-.contact-btn:active {
+.link-btn:active {
   transform: scale(1);
 }
 
-.contact-btn a {
+.link-btn a {
   text-decoration: none;
   color: var(--bgColor);
 }
@@ -181,5 +181,9 @@
     margin-left: 0;
     margin-bottom: 0;
     font-size: 22px;
+  }
+
+  .link-btn {
+    font-size: 8px;
   }
 }
