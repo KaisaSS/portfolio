@@ -1,15 +1,27 @@
+.form-container {
+  min-height: 80vh;
+}
+
 form {
-  width: 50%;
+  width: 65%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid var(--white);
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 20px;
+  gap: 20px;
+}
+
+.right-form,
+.left-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 label {
-  margin: 15px;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   font-size: 15px;
@@ -27,19 +39,23 @@ textarea {
   resize: none;
 }
 
+textarea {
+  height: 205px;
+}
+
 input:focus,
 textarea:focus {
-  border: 2px solid var(--blue);
+  border: 1px solid var(--blue);
 }
 
 .submit-btn {
-  width: 90px;
   margin: 10px auto;
-  background: var(--white);
+  background: var(--pink);
   border: none;
   border-radius: 5px;
   transition: 0.2s linear;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -48,6 +64,7 @@ textarea:focus {
 
 .submit-btn:active {
   transform: scale(1);
+  border: none;
 }
 
 .required {
@@ -61,6 +78,21 @@ textarea:focus {
   margin-bottom: 5px;
 }
 
+.success-message p:last-child {
+  margin-top: 30px;
+}
+
+.success-message a {
+  text-decoration: none;
+  color: var(--bgColor);
+  padding: 5px 8px;
+  background: var(--green);
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
 .fa-check-circle {
   color: var(--green);
 }
@@ -68,6 +100,13 @@ textarea:focus {
 @media only screen and (max-width: 700px) {
   form {
     width: 100%;
-    border-bottom: none;
+    flex-direction: column;
+    border: none;
+    border-top: 1px solid var(--white);
+    gap: 0;
+  }
+
+  textarea {
+    height: 150px;
   }
 }
