@@ -1,4 +1,31 @@
+.about-container {
+  width: 650px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.about-container p {
+  margin-bottom: 20px;
+}
+
+.about-container p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-container a {
+  text-decoration: none;
+  color: var(--green);
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
 .language-container {
+  margin-top: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,7 +38,13 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .about-container {
+    width: 90%;
+    margin: 0 20px;
+    text-align: center;
+  }
+
   .language-container img {
-    height: 35px;
+    height: 40px;
   }
 }
