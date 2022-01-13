@@ -19,7 +19,9 @@ const ContactForm = ({ setIsSubmitted }) => {
 
   return (
     <div className="form-container">
-      <h1 className="title">Say hello</h1>
+      <div className="typewriter">
+        <h1 className="title animate-title">Say hello</h1>
+      </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="left-form">
           <label>
