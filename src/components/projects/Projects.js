@@ -26,9 +26,9 @@ const Projects = () => {
                 showSingleProject(project);
               }}
             >
-              <a href="#">
+              <button>
                 <i className="fas fa-angle-double-right fa-2x" />
-              </a>
+              </button>
               <span className="tooltiptext">See more</span>
             </div>
           </div>
