@@ -1,27 +1,29 @@
 .about-container {
-  width: 650px;
-  margin: 20px auto 0;
+  width: 600px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+  font-size: 15px;
+  justify-content: center;
 }
 
 .about-container p {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.about-container p:first-child {
-  font-size: 20px;
-  font-weight: bold;
+.about-container p:last-child {
+  margin-bottom: 20px;
 }
 
 .about-container a {
   text-decoration: none;
-  color: var(--green);
+  color: var(--pink);
 }
 
 .about-container a:hover {
   text-decoration: underline;
+  transform: scale(2);
 }
 
 .language-container {
@@ -40,8 +42,7 @@
 @media only screen and (max-width: 700px) {
   .about-container {
     width: 90%;
-    margin: 0 20px;
-    text-align: center;
+    margin: 50px 20px;
   }
 
   .language-container img {
