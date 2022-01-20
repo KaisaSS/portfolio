@@ -17,6 +17,12 @@ body {
   color: var(--white);
   background: var(--bgColor);
   font-family: monospace;
+  cursor: default;
+}
+
+::selection {
+  background: #129099;
+  color: var(--white);
 }
 
 .container {
