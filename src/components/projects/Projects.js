@@ -19,6 +19,9 @@ const Projects = () => {
         {projectArr.map((project) => (
           <div className="project" key={project.name}>
             <h3>{project.name}</h3>
+            <div className="project-cover">
+              <img src={project.coverPhoto} alt="cover" />
+            </div>
             <p className="project-description">{project.description}</p>
             <div
               className="tooltip"
@@ -34,7 +37,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      {showProject ? <SingleProject showSingleProject={showSingleProject} singleProject={singleProject} /> : null}
+      {showProject ? <SingleProject showSingleProject={showSingleProject} project={singleProject} /> : null}
     </div>
   );
 };
