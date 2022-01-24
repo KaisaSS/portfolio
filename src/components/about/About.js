@@ -9,6 +9,7 @@ import html_img from "../../images/html5_img.png";
 import javascript_img from "../../images/javascript_img.png";
 import nodejs_img from "../../images/nodejs_img.png";
 import react_img from "../../images/react_img.png";
+import redux_img from "../../images/redux_img.png";
 
 const About = () => {
   useEffect(() => {
@@ -46,12 +47,17 @@ const About = () => {
       <div className="about-container">
         <h2>Languages I speak</h2>
         <div className="language-container">
-          <img src={html_img} alt="html logo" data-aos="flip-left" />
-          <img src={css_img} alt="css logo" data-aos="flip-left" data-aos-delay="100" />
-          <img src={javascript_img} alt="javascript logo" data-aos="flip-left" data-aos-delay="200" />
-          <img src={react_img} alt="react logo" data-aos="flip-left" data-aos-delay="400" />
-          <img src={nodejs_img} alt="nodejs logo" data-aos="flip-left" data-aos-delay="500" />
-          <img src={git_img} alt="git logo" data-aos="flip-left" data-aos-delay="600" />
+          <div className="languages">
+            <img src={html_img} alt="html logo" data-aos="flip-left" />
+            <img src={css_img} alt="css logo" data-aos="flip-left" data-aos-delay="50" />
+            <img src={javascript_img} alt="javascript logo" data-aos="flip-left" data-aos-delay="100" />
+          </div>
+          <div className="languages">
+            <img src={react_img} alt="react logo" data-aos="flip-left" />
+            <img src={redux_img} alt="redux logo" data-aos="flip-left" data-aos-delay="50" />
+            <img src={nodejs_img} alt="nodejs logo" data-aos="flip-left" data-aos-delay="100" />
+            <img src={git_img} alt="git logo" data-aos="flip-left" data-aos-delay="150" />
+          </div>
         </div>
         <p>...and ready to learn more!</p>
       </div>
