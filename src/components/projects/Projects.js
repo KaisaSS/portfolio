@@ -8,6 +8,7 @@ const Projects = () => {
   const [singleProject, setSingleProject] = useState(null);
 
   const showSingleProject = (project) => {
+    showProject ? window.scrollTo() : window.scrollTo({ top: 100, behavior: "smooth" });
     setShowProject(!showProject);
     setSingleProject(project);
   };
@@ -22,7 +23,7 @@ const Projects = () => {
             <div className="project-cover">
               <img src={project.coverPhoto} alt="cover" />
             </div>
-            <p className="project-description">{project.description}</p>
+            <p className="project-description">{project.shortDescription}</p>
             <div
               className="tooltip"
               onClick={() => {

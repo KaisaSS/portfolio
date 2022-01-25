@@ -92,7 +92,6 @@
   min-height: 150%;
   position: absolute;
   top: 0;
-  /* background-color: chocolate; */
 }
 
 .project-background {
@@ -163,6 +162,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0;
+  background: rgb(240, 240, 240);
+  border: 1px solid gainsboro;
+  border-radius: 10px;
 }
 
 .tech-button {
@@ -216,6 +219,11 @@
 
   .project-text {
     width: 90%;
+  }
+
+  .tech-button {
+    padding: 5px 10px;
+    margin: 20px 10px 0;
   }
 
   .image-slider {
