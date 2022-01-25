@@ -1,37 +1,115 @@
 [
   {
     "name": "DoggyCare",
-    "coverPhoto": "",
-    "description": "Website that lets you book dog walking service, doggy daycare, or dog boarding for a selected date and time",
+    "coverPhoto": "https://i.postimg.cc/prBR18dZ/cover.png",
+    "shortDescription": "Book a dog walking service, doggy daycare, or dog boarding for a selected date and time",
+    "description": "Write",
+    "techStack": [
+      { "stack": "HTML", "id": "1" },
+      { "stack": "CSS", "id": "2" },
+      { "stack": "JavaScript", "id": "3" },
+      { "stack": "React.js", "id": "4" },
+      { "stack": "React Hooks", "id": "5" },
+      { "stack": "NodeJS", "id": "7" },
+      { "stack": "PostgreSQL", "id": "9" }
+    ],
     "website": "",
-    "github": "https://github.com/KaisaSS/doggy-care"
+    "github": "https://github.com/KaisaSS/doggy-care",
+    "projectImages": [
+      { "url": "https://i.postimg.cc/63n9nFJF/one.png" },
+      { "url": "https://i.postimg.cc/0NLk6P3p/three.png" },
+      { "url": "https://i.postimg.cc/YCDqH1zD/five.png" },
+      { "url": "https://i.postimg.cc/8CFkPjyp/seven.png" },
+      { "url": "https://i.postimg.cc/kGC7cw7G/eight.png" }
+    ]
+  },
+  {
+    "name": "Face Recognition App",
+    "coverPhoto": "https://i.postimg.cc/2SPtybtG/six.png",
+    "shortDescription": "Full app with registration and login, that will detect a face in an image of your choice",
+    "description": "",
+    "techStack": [
+      { "stack": "HTML", "id": "1" },
+      { "stack": "CSS", "id": "2" },
+      { "stack": "JavaScript", "id": "3" },
+      { "stack": "React.js", "id": "4" },
+      { "stack": "React Hooks", "id": "5" },
+      { "stack": "NodeJS", "id": "7" },
+      { "stack": "API calls", "id": "8" },
+      { "stack": "Express", "id": "9" },
+      { "stack": "PostgreSQL", "id": "10" }
+    ],
+    "website": "",
+    "github": "https://github.com/KaisaSS/face-recognition",
+    "projectImages": [
+      { "url": "https://i.postimg.cc/sDTN61wJ/one.png" },
+      { "url": "https://i.postimg.cc/PxNxDC3F/two.png" },
+      { "url": "https://i.postimg.cc/LXhkNB6t/three.png" },
+      { "url": "https://i.postimg.cc/g0j6WcFd/four.png" },
+      { "url": "https://i.postimg.cc/wjGjDhZ8/five.png" }
+    ]
+  },
+  {
+    "name": "Movie Search",
+    "coverPhoto": "https://i.postimg.cc/Twq32WR5/five.png",
+    "shortDescription": "Browse popular movies, check movie ratings, running times, budgets, and more!",
+    "description": "",
+    "techStack": [
+      { "stack": "HTML", "id": "1" },
+      { "stack": "CSS/styled", "id": "2" },
+      { "stack": "JavaScript", "id": "3" },
+      { "stack": "React.js", "id": "4" },
+      { "stack": "React Hooks", "id": "5" },
+      { "stack": "API calls", "id": "8" }
+    ],
+    "website": "https://movie-db-reactjs.netlify.app/",
+    "github": "https://github.com/KaisaSS/react-movie-db",
+    "projectImages": [
+      { "url": "https://i.postimg.cc/d1MHkx97/one.png" },
+      { "url": "https://i.postimg.cc/Y91X1zXd/two.png" },
+      { "url": "https://i.postimg.cc/L52xvgw2/three.png" },
+      { "url": "https://i.postimg.cc/vZNSMBgt/four.png" }
+    ]
+  },
+  {
+    "name": "Memo Dogs",
+    "coverPhoto": "https://i.postimg.cc/4xgpcTCR/two.png",
+    "shortDescription": "Classic memory game where the goal is to find two matching cards - how many turns will you need?",
+    "description": "",
+    "techStack": [
+      { "stack": "HTML", "id": "1" },
+      { "stack": "CSS", "id": "2" },
+      { "stack": "JavaScript", "id": "3" },
+      { "stack": "React.js", "id": "4" },
+      { "stack": "React Hooks", "id": "5" },
+      { "stack": "NodeJS", "id": "7" }
+    ],
+    "website": "https://memo-dogs.netlify.app/",
+    "github": "https://github.com/KaisaSS/memory-game",
+    "projectImages": [
+      { "url": "https://i.postimg.cc/FHbqBszH/four.png" },
+      { "url": "https://i.postimg.cc/NfT1Ljzx/one.png" },
+      { "url": "https://i.postimg.cc/4xgpcTCR/two.png" },
+      { "url": "https://i.postimg.cc/jS4PQkKw/three.png" }
+    ]
   },
   {
     "name": "CryptoCurr",
     "coverPhoto": "",
-    "description": "Cryptocurrency news, statistics and exchange information, all in one platform",
+    "shortDescription": "Cryptocurrency news, stats and exchange information, all in one platform",
+    "description": "",
+    "techStack": [
+      { "stack": "HTML", "id": "1" },
+      { "stack": "CSS", "id": "2" },
+      { "stack": "JavaScript", "id": "3" },
+      { "stack": "React.js", "id": "4" },
+      { "stack": "React Hooks", "id": "5" },
+      { "stack": "Redux", "id": "6" },
+      { "stack": "NodeJS", "id": "7" },
+      { "stack": "API calls", "id": "8" }
+    ],
     "website": "https://crypto-curr-react.netlify.app/",
-    "github": "https://github.com/KaisaSS/crypto-app"
-  },
-  {
-    "name": "Memo Dogs",
-    "coverPhoto": "",
-    "description": "Classic memory game where the goal is to find two matching cards",
-    "website": "https://memo-dogs.netlify.app/",
-    "github": "https://github.com/KaisaSS/memory-game"
-  },
-  {
-    "name": "Face Recognition App",
-    "coverPhoto": "",
-    "description": "App that detects a face in an image of your choice",
-    "website": "",
-    "github": "https://github.com/KaisaSS/face-recognition"
-  },
-  {
-    "name": "Movie Search",
-    "coverPhoto": "",
-    "description": "Browse popular movies, check movie ratings, running times, budgets, and more!",
-    "website": "https://movie-db-reactjs.netlify.app/",
-    "github": "https://github.com/KaisaSS/react-movie-db"
+    "github": "https://github.com/KaisaSS/crypto-app",
+    "projectImages": [{ "url": "" }]
   }
 ]
