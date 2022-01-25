@@ -23,17 +23,22 @@ const About = () => {
         <h2>
           Hello, I am Kaisa <i className="fas fa-smile" />
         </h2>
-        <div className="detail-container">
+        <div>
+          <div className="detail-container">
+            <p>
+              <i className="fas fa-file-code fa-lg detail-icon" /> Frontend developer - React
+            </p>
+            <p>
+              <i className="fas fa-map-marker-alt fa-lg detail-icon" /> Milton Keynes / London, UK
+            </p>
+          </div>
           <p>
-            I am a frontend developer with a main focus on React framework, currently based on Milton Keynes, UK.
+            I am a fast learner who is motivated by challenge and the possibility of professional and personal
+            growth.
           </p>
           <p>
-            I am a <strong>fast learner</strong> who is motivated by challenge and the possibility of professional
-            and personal growth.
-          </p>
-          <p>
-            As a <strong>teamplayer</strong>, I thrive in helping others, and I am not scared to ask for help
-            myself. My background lies in psychology, so for me, good communication is the key for a job well-done.
+            As a teamplayer, I thrive in helping others, and I am not scared to ask for help myself. My background
+            lies in psychology, so for me, good communication is the key for a job well-done.
           </p>
           <p>
             I don't finish my work until I am 1000% satisfied with the results (oh well, here comes the
@@ -45,7 +50,7 @@ const About = () => {
         </div>
       </div>
       <div className="about-container">
-        <h2>Languages I speak</h2>
+        <h2>My tech stack</h2>
         <div className="language-container">
           <div className="languages">
             <img src={html_img} alt="html logo" data-aos="flip-left" />

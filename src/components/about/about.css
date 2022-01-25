@@ -25,13 +25,23 @@
   text-decoration: underline;
 }
 
+.detail-container {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.detail-icon {
+  margin: 0 10px;
+}
+
 .language-container {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .languages {
