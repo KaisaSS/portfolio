@@ -3,7 +3,7 @@
     "name": "DoggyCare",
     "coverPhoto": "https://i.postimg.cc/prBR18dZ/cover.png",
     "shortDescription": "Book a dog walking service, doggy daycare, or dog boarding for a selected date and time",
-    "description": "Write",
+    "description": "DoggyCare was designed for an easy booking of dog-care services including walking, daycare, and boarding. Simply select the service you need, pick a suitable date and time from the booking calendar, enter your and your dog's details, and you're good to go!",
     "techStack": [
       { "stack": "HTML", "id": "1" },
       { "stack": "CSS", "id": "2" },
@@ -27,7 +27,7 @@
     "name": "Face Recognition App",
     "coverPhoto": "https://i.postimg.cc/2SPtybtG/six.png",
     "shortDescription": "Full app with registration and login, that will detect a face in an image of your choice",
-    "description": "",
+    "description": "Face Recognition App is a fully functional app with user registration and login features. Once logged in, simply add an URL address of an image and let the app detect a face in it. The app keeps count of how many entries you have entered.",
     "techStack": [
       { "stack": "HTML", "id": "1" },
       { "stack": "CSS", "id": "2" },
@@ -53,7 +53,7 @@
     "name": "Movie Search",
     "coverPhoto": "https://i.postimg.cc/Twq32WR5/five.png",
     "shortDescription": "Browse popular movies, check movie ratings, running times, budgets, and more!",
-    "description": "",
+    "description": "This movie search website lets you browse the newest top movies, and search any movies of your choice. You can check movie ratings, running times, budgets, revenues, and lists of actors.",
     "techStack": [
       { "stack": "HTML", "id": "1" },
       { "stack": "CSS/styled", "id": "2" },
@@ -74,8 +74,8 @@
   {
     "name": "Memo Dogs",
     "coverPhoto": "https://i.postimg.cc/4xgpcTCR/two.png",
-    "shortDescription": "Classic memory game where the goal is to find two matching cards - how many turns will you need?",
-    "description": "",
+    "shortDescription": "Classic memory game where the goal is to find all matching cards - how many turns will you need?",
+    "description": "Memo Dogs is a classic memory game - with pictures of dogs! Find all matching cards and shuffle the cards from the 'new game' button to play again! How many turns will you need?",
     "techStack": [
       { "stack": "HTML", "id": "1" },
       { "stack": "CSS", "id": "2" },
@@ -92,24 +92,5 @@
       { "url": "https://i.postimg.cc/4xgpcTCR/two.png" },
       { "url": "https://i.postimg.cc/jS4PQkKw/three.png" }
     ]
-  },
-  {
-    "name": "CryptoCurr",
-    "coverPhoto": "",
-    "shortDescription": "Cryptocurrency news, stats and exchange information, all in one platform",
-    "description": "",
-    "techStack": [
-      { "stack": "HTML", "id": "1" },
-      { "stack": "CSS", "id": "2" },
-      { "stack": "JavaScript", "id": "3" },
-      { "stack": "React.js", "id": "4" },
-      { "stack": "React Hooks", "id": "5" },
-      { "stack": "Redux", "id": "6" },
-      { "stack": "NodeJS", "id": "7" },
-      { "stack": "API calls", "id": "8" }
-    ],
-    "website": "https://crypto-curr-react.netlify.app/",
-    "github": "https://github.com/KaisaSS/crypto-app",
-    "projectImages": [{ "url": "" }]
   }
 ]

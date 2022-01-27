@@ -27,8 +27,10 @@ const SingleProject = ({ showSingleProject, project }) => {
             <img src={project.coverPhoto} alt="" />
           </div>
           <div className="project-text">
+            <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <div>
+            <h4>Tech stack used:</h4>
+            <div className="tech-buttons">
               {project.techStack.map((tech) => (
                 <button className="tech-button" key={tech.id}>
                   {tech.stack}

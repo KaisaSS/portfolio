@@ -1,3 +1,7 @@
+.project-container {
+  min-height: 80vh;
+}
+
 .project-grid {
   margin: 40px 150px;
   display: grid;
@@ -149,12 +153,19 @@
 }
 
 .project-text {
-  background: rgb(240, 240, 240);
   margin: 20px 10px;
   padding: 20px 15px;
   font-size: 1.1em;
   line-height: 25px;
   width: 50%;
+}
+
+.project-text h3 {
+  margin-bottom: 10px;
+}
+
+.project-text h4 {
+  margin-top: 20px;
 }
 
 .image-slider {
@@ -166,6 +177,12 @@
   background: rgb(240, 240, 240);
   border: 1px solid gainsboro;
   border-radius: 10px;
+}
+
+.tech-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tech-button {
