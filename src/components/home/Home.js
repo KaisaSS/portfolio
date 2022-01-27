@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import projectArr from "../../data/projectArr.json";
 import pinkK from "../../images/pinkK.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,6 +19,17 @@ const Home = () => {
           <h1>I am Kaisa</h1>
           <p>a frontend developer</p>
           <img src={pinkK} alt="letter K in the background" className="bg-K" />
+        </div>
+      </div>
+      <div className="section">
+        <div>
+          <h1>About</h1>
+        </div>
+        <p className="short-description">Frontend developer based in Milton Keynes / London, UK</p>
+        <div className="link-btn">
+          <Link to="/about">
+            <h1>Read more</h1>
+          </Link>
         </div>
       </div>
       <div className="section">
@@ -39,18 +51,16 @@ const Home = () => {
         </div>
       </div>
       <div className="section">
-        <h1>About</h1>
-        <div className="link-btn">
-          <Link to="/about">
-            <h1>Read more</h1>
-          </Link>
-        </div>
-      </div>
-      <div className="section">
         <h1>Projects</h1>
+        <p></p>
+        <div className="projects">
+          {projectArr.map((project) => (
+            <img src={project.coverPhoto} alt="project images" key={project.name} />
+          ))}
+        </div>
         <div className="link-btn">
           <Link to="/projects">
-            <h1>More projects</h1>
+            <h1>See more</h1>
           </Link>
         </div>
       </div>

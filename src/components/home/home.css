@@ -7,6 +7,10 @@
   margin-bottom: 40px;
 }
 
+.section h1 {
+  z-index: 1;
+}
+
 .description {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,11 @@
 
 .description h1 {
   font-size: 36px;
+}
+
+.short-description {
+  margin-top: 20px;
+  text-align: center;
 }
 
 .triangles {
@@ -97,6 +106,7 @@
   cursor: pointer;
   transition: 0.2s ease-out;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .link-btn:hover {
@@ -110,6 +120,22 @@
 .link-btn a {
   text-decoration: none;
   color: var(--bgColor);
+}
+
+/* Projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 10px;
+  opacity: 0.3;
+  width: 75%;
+  position: absolute;
+}
+
+.projects img {
+  width: 100%;
+  height: 258px;
+  object-fit: cover;
 }
 
 /* Animations */
@@ -185,5 +211,15 @@
 
   .link-btn {
     font-size: 8px;
+  }
+
+  /* Projects */
+  .projects {
+    width: 95%;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .projects img {
+    height: 160px;
   }
 }
