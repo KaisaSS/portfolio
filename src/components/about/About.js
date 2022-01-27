@@ -28,9 +28,10 @@ const About = () => {
               <i className="fas fa-file-code fa-lg detail-icon" /> Frontend developer - React
             </p>
             <p>
-              <i className="fas fa-map-marker-alt fa-lg detail-icon" /> Milton Keynes / London, UK
+              <i className="fas fa-map-marker-alt fa-lg detail-icon" /> London, UK
             </p>
           </div>
+          <p>Hi, I am Kaisa!</p>
           <p>
             I am a <span>fast learner</span> who is motivated by challenge and the possibility of professional and
             personal growth. I am constantly looking to perfect my skills and I am excited to learn new
