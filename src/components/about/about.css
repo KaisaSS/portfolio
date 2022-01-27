@@ -1,6 +1,6 @@
 .about-container {
   width: 600px;
-  margin: 100px auto;
+  margin: 30px auto 130px;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
@@ -10,6 +10,11 @@
 
 .about-container p {
   margin-top: 20px;
+}
+
+.about-container span {
+  font-weight: 800;
+  font-style: italic;
 }
 
 .about-container p:last-child {
@@ -52,6 +57,23 @@
 
 .languages img {
   height: 60px;
+}
+
+.get-in-touch-btn {
+  margin: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.get-in-touch-btn:hover {
+  transform: scale(1.1);
+  background: var(--pink);
 }
 
 @media only screen and (max-width: 700px) {
