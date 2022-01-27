@@ -13,7 +13,7 @@
   border: 2px solid var(--pink);
   border-radius: 10px;
   padding: 15px;
-  opacity: 0.3;
+  opacity: 0.4;
   cursor: default;
 }
 
@@ -99,7 +99,6 @@
 }
 
 .project-background {
-  background: rgba(255, 255, 255, 0.01);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -219,6 +218,10 @@
 @media only screen and (max-width: 825px) {
   .project-grid {
     margin: 30px 10px;
+  }
+
+  .project {
+    opacity: 0.8;
   }
 
   .single-project {
